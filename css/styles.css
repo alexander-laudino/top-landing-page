@@ -2,6 +2,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-flow: column;
+    padding: 10px 150px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -16,7 +17,7 @@ body {
     align-items: center;
 }
 
-.top-header-left {
+.top-header-left h1 {
     font-size: 24px;
     color: #F9FAF8
 }
