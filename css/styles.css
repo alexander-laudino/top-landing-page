@@ -16,6 +16,11 @@ body {
     align-items: center;
 }
 
+.top-header-left {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
 #header-links {
     list-style-type: none;
     margin: 0;
@@ -23,5 +28,5 @@ body {
     display: flex;
     gap: 16px;
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
