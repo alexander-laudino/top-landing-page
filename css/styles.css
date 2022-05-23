@@ -1,5 +1,6 @@
 body {
     background-color: #1F2937;
+    color: #F9FAF8;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -57,7 +58,7 @@ a {
 }
 
 .bottom-header-left {
-    width: 250px;
+    width: 300px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -73,10 +74,21 @@ a {
 }
 
 #timeline {
+    flex-shrink: 1;
     width: 500px;
     height: auto;
 }
 
 .bottom-header-left p {
     margin: 0;
+}
+
+.bottom-header-left button {
+    width: 100px;
+    height: auto;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border-style: none;
+    color: #F9FAF8;
 }
