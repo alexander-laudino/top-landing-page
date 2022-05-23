@@ -13,10 +13,11 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .top-header {
-    height: 32px;
+    height: 72px;
     flex: 1 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -39,16 +40,43 @@ body {
     font-size: 18px;
 }
 
-.bottom-header {
-    height: 250px;
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
-}
-
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.bottom-header {
+    height: 300px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.bottom-header-left {
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+.bottom-header-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#timeline {
+    width: 500px;
+    height: auto;
+}
+
+.bottom-header-left p {
+    margin: 0;
 }
