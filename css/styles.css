@@ -165,12 +165,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
 
 .cta-left {
     color: #F9FAF8;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: space-between;
     gap: 5px;
 }
