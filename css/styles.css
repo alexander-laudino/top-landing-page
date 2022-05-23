@@ -1,3 +1,14 @@
 body {
     background-color: #1F2937;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+}
+
+.top-header {
+    display: flex;
 }
