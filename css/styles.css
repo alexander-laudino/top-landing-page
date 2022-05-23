@@ -17,7 +17,7 @@ body {
 
 .top-header {
     height: 32px;
-    flex: 1 auto;
+    flex: 1 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,6 +37,15 @@ body {
     display: flex;
     gap: 16px;
     font-size: 18px;
+}
+
+.bottom-header {
+    height: 250px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 a {
