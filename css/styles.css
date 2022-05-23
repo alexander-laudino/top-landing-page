@@ -2,6 +2,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-flow: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -21,4 +22,6 @@ body {
     padding: 0;
     display: flex;
     gap: 16px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
