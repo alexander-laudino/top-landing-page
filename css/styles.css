@@ -11,13 +11,13 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    gap: 16px;
+    gap: 10px;
     padding: 0px 150px;
     background-color: #1F2937;
 }
 
 .top-header {
-    height: 72px;
+    height: 48px;
     flex: 1 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +26,7 @@ body {
 }
 
 .top-header-left h1 {
+    margin: 0;
     font-size: 24px;
     color: #F9FAF8;
     margin-right: 16px;
@@ -46,14 +47,12 @@ a {
 }
 
 .bottom-header {
-    height: 300px;
-    flex: 1 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    padding: 20px 0px;
+    margin-bottom: 10px;
 }
 
 .bottom-header-left {
@@ -61,7 +60,6 @@ a {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    padding: 10px 0px;
     gap: 10px;
 }
 
@@ -93,16 +91,16 @@ a {
 }
 
 .content {
-    height: 300px;
-    padding: 0px 150px;
+    height: 350px;
+    padding: 10px 150px;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 10px;
 }
 
 .content h1 {
-    width: 750px;
     margin: 0;
     font-size: 36px;
     font-weight: bolder;
@@ -111,8 +109,8 @@ a {
 }
 
 .content-cards {
-    width: 750px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -129,4 +127,9 @@ a {
     width: 150px;
     height: 150px;
     border: #3882F6 solid 2px;
+}
+
+.quote {
+    height: 300px;
+    background-color: #E5E7EB;
 }
