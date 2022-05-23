@@ -58,7 +58,7 @@ a {
 }
 
 .bottom-header-left {
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
