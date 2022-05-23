@@ -1,5 +1,4 @@
 body {
-    color: #F9FAF8;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -80,6 +79,7 @@ a {
 
 .bottom-header-left p {
     margin: 0;
+    color: #F9FAF8;
 }
 
 .bottom-header-left button {
@@ -97,12 +97,36 @@ a {
     padding: 0px 150px;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 .content h1 {
+    width: 750px;
     margin: 0;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+
+.content-cards {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card img {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 2px;
 }
