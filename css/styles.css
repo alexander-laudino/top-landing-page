@@ -73,8 +73,12 @@ a {
     padding: 0;
 }
 
+.bottom-header-right {
+    width: 600px;
+}
+
 #timeline {
-    width: 500px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -148,4 +152,12 @@ a {
     align-self: flex-end;
     font-style: normal;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
