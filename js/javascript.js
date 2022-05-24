@@ -2,10 +2,10 @@ let admin;
 let name;
 name = "John";
 admin = name;
-alert(admin);
+//alert(admin);
 
 const ourPlanetName = "Earth";
-alert(ourPlanetName);
+//alert(ourPlanetName);
 
 let currentUser = "Deltron";
-alert(currentUser);
+//alert(currentUser);
