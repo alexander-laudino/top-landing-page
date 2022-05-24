@@ -120,7 +120,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .card {
@@ -141,7 +141,7 @@ a {
     width: 250px;
     word-wrap: break-word;
     text-align: center;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .quote {
