@@ -136,6 +136,14 @@ a {
     border: #3882F6 solid 2px;
 }
 
+.card p {
+    margin: 0;
+    width: 250px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
