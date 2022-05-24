@@ -6,7 +6,7 @@ function greet() {
 }
 
 function login() {
-    const name = prompt("Enter user name");
+    const name = prompt("Enter user name (for testing purposes only)");
     if (name === null || name === "") {
         alert("Cancelled!");
     } 
@@ -14,7 +14,7 @@ function login() {
         alert("I don't know you")
     }
     else if (name === "Admin") {
-        const pass = prompt("Enter password");
+        const pass = prompt("Enter password (for testing purposes only)");
         if (pass === null || pass === "") {
             alert("Cancelled");
         }
