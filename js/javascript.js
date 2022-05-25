@@ -14,7 +14,7 @@ function login() {
         alert("I don't know you")
     }
     else if (name === "Admin") {
-        const pass = prompt("Enter password (for testing purposes only)");
+        const pass = prompt("Enter password (for testing purposes only)", "*********");
         if (pass === null || pass === "") {
             alert("Cancelled");
         }
@@ -72,3 +72,9 @@ function update(bgColor, textColor) {
 }
 
 select1.addEventListener('change', () => ( select1.value === 'black' ) ? update('black','white') : update('white','black'));
+
+
+const textBox = document.querySelector("#textBox");
+const output = document.querySelector("#output");
+
+textBox.addEventListener('keydown', event => output.textContent = `You pressed "${event.key}".`);

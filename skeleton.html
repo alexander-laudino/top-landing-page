@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let add7 = (x) => x + 7;
+        console.log(add7(9));
+
+        function multiply(x, y) {
+            return x * y;
+        }
+
+        console.log(multiply(9,5));
+
+        function capitalize(text="") {
+            let firstLetter = text.charAt(0);
+            let firstUpper = firstLetter.toUpperCase();
+            let lowerText = text.toLowerCase();
+            let lowArray = lowerText.split("");
+            lowArray[0] = firstUpper;
+            let word = lowArray.join("");
+            return word;
+        }
+
+        console.log(capitalize("forGetAboutIt"));
+        console.log(capitalize("uNDerStandAble"));
+
+        let lastLetter = (text="") => text.substr(-1);
+
+        console.log(lastLetter("This is a z"));
+    </script>
+</body>
+</html>
