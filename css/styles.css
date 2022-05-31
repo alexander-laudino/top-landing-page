@@ -163,6 +163,9 @@ a {
 }
 
 .call-to-action {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
     padding: 50px 150px;
 }
 
@@ -174,6 +177,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+    flex: 1;
 }
 
 .cta-left {

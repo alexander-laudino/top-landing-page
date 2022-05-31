@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+<body style="background-color: #000;">
+    <label for="search" style="color: #fff;">Search by contact name: </label>
+    <input id="search" type="text">
+    <button>Search</button>
+
+    <p style="color: #fff;"></p>
+
     <script>
         let add7 = (x) => x + 7;
         console.log(add7(9));
@@ -15,9 +23,9 @@
             return x * y;
         }
 
-        console.log(multiply(9,5));
+        console.log(multiply(9, 5));
 
-        function capitalize(text="") {
+        function capitalize(text = "") {
             let firstLetter = text.charAt(0);
             let firstUpper = firstLetter.toUpperCase();
             let lowerText = text.toLowerCase();
@@ -30,9 +38,33 @@
         console.log(capitalize("forGetAboutIt"));
         console.log(capitalize("uNDerStandAble"));
 
-        let lastLetter = (text="") => text.substr(-1);
+        let lastLetter = (text = "") => text.substr(-1);
 
         console.log(lastLetter("This is a z"));
+
+        const contacts = ['Chris:2232322', 'Sarah:3453456', 'Bill:7654322', 'Mary:9998769', 'Dianne:9384975'];
+            const para = document.querySelector('p');
+            const input = document.querySelector('input');
+            const btn = document.querySelector('button');
+
+            btn.addEventListener('click', () => {
+                const searchName = input.value.toLowerCase();
+                input.value = '';
+                input.focus();
+                para.textContent = '';
+                for (const contact of contacts) {
+                    const splitContact = contact.split(':');
+                    if (splitContact[0].toLowerCase() === searchName) {
+                        para.textContent = splitContact[0] + '\'s number is ' + splitContact[1] + '.';
+                        break;
+                    }
+                }
+                if (para.textContent === '') {
+                    para.textContent = 'Contact not found.';
+                }
+            });
+
     </script>
 </body>
+
 </html>
